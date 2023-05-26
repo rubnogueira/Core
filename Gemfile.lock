@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     cocoapods-core (1.12.1)
-      activesupport (>= 5.0, < 8)
+      activesupport (~> 6.0.0, >= 5.0)
       addressable (~> 2.8)
       algoliasearch (~> 1.0)
       concurrent-ruby (~> 1.1)
