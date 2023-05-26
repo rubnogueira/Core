@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gemspec
 
 # We still support Ruby 2.6 in CI for Core. ActiveSupport > 7 is Ruby 2.7.x.
-gem 'activesupport', '>= 5.0', '~> 6.0.0'
+gem 'activesupport', '>= 5.0', '< 6'
 
 group :development do
   gem 'bacon'
